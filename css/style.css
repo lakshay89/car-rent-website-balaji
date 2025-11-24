@@ -4,6 +4,21 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9999;
+  display: block;
+  transition: box-shadow 0.3s;
+}
+.whatsapp-float:hover {
+  box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+}
+
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
